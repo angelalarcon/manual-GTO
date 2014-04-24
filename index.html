@@ -533,3 +533,13 @@
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
+<script type="text/javascript">
+  var offset = 80;
+
+  $('a').click(function(event) {
+      event.preventDefault();
+      $($(this).attr('href'))[0].scrollIntoView();
+      scrollBy(0, -offset);
+  });
+</script>
