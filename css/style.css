@@ -3,18 +3,10 @@ body {
 	color: #555;
 }
 
-#menu {
-	text-align: center;
-	height: 70px;
+.logo {
+	background: #fff;
+	margin: -10px 0;
 	padding: 10px 0;
-}
-
-#menu .col-lg-1 {
-	padding: 0;
-}
-
-#menu a {
-	font-size: 12px;
 }
 
 #logo {
@@ -22,8 +14,41 @@ body {
 	height: 50px;
 }
 
-.content {
-	padding: 20px 0;
+#menu {
+	background-color: #2F7096;
+	border-bottom: 1px solid #255977;
+	padding: 10px 0;
+	height: 70px;
+}
+
+#menu h2 {
+	margin: 10px 0;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+#sidebar {
+	position: fixed;
+	width: 16.66666667%;
+	height: 100%;
+	margin-left: -15px;
+	background-color: #2F7096;
+}
+
+#sidebar a {
+	border-top: 1px solid #3E8BB8;
+	border-bottom: 1px solid #255977;
+	display: block;
+	padding: 5px 15px;
+	background-color: #2F7096;
+	color: #fff;
+}
+
+#sidebar a:hover {
+	text-decoration: none;
+	background-color: #3C8DBC;
+	border-top: 1px solid #4AA6DB;
+	border-bottom: 1px solid #3E8BB8;
 }
 
 .tab {
