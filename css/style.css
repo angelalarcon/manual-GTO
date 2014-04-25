@@ -3,6 +3,10 @@ body {
 	color: #555;
 }
 
+img {
+	max-width: 100%;
+}
+
 .logo {
 	background: #fff;
 	margin: -10px 0;
