@@ -42,6 +42,7 @@ img {
 	background-color: #2F7096;
 }
 
+
 #sidebar a {
 	border-top: 1px solid #3E8BB8;
 	border-bottom: 1px solid #255977;
@@ -77,4 +78,10 @@ ol li {
 
 ul li {
 	margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+	#sidebar {
+		width: 33.3%;
+	}
 }
