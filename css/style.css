@@ -5,6 +5,7 @@ body {
 
 img {
 	max-width: 100%;
+	height: auto;
 }
 
 .logo {
@@ -16,6 +17,7 @@ img {
 #logo {
 	width: auto;
 	height: 50px;
+	margin: 0 auto
 }
 
 #menu {
@@ -29,6 +31,7 @@ img {
 	margin: 10px 0;
 	margin-bottom: 0;
 	color: #fff;
+	font-size: 150%;
 }
 
 #sidebar {
